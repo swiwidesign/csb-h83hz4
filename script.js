@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 let mm = gsap.matchMedia();
 
-// span effect on text
+// span effect on texts
 gsap.utils.toArray("p sub").forEach((el) => {
   gsap.fromTo(
     el,
